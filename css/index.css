@@ -1,0 +1,214 @@
+﻿/* Set the color of links in navigation tabs */
+.nav-tabs li a {
+  color: #ff0000;
+}
+
+/* Style for the main navigation bar */
+.navbar {
+  font-family: Montserrat, sans-serif;
+  margin-bottom: 0;
+  background-color: #2d2d30;
+  border: 0;
+  letter-spacing: 4px;
+  opacity: 0.9;
+}
+
+/* Style for the brand/logo in the navigation bar */
+.navbar-brand {
+  color: #d5d5d5 !important;
+  font-size: 20px !important;
+}
+
+/* Style for links in the navigation bar */
+.navbar li a,
+.navbar {
+  color: #d5d5d5 !important;
+  font-size: 11px !important;
+}
+
+/* Hover effect for navigation links */
+.navbar-nav li a:hover {
+  color: #fff !important;
+}
+
+/* Style for active (selected) navigation link */
+.navbar-nav li.active a {
+  color: #fff !important;
+  background-color: #29292c !important;
+}
+
+/* Style for the navbar toggle button */
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+}
+
+/* Style for dropdown menus when opened */
+.open .dropdown-toggle {
+  color: #fff;
+  background-color: #555 !important;
+}
+
+/* Style for dropdown menu items */
+.dropdown-menu li a {
+  color: #000 !important;
+}
+
+/* Hover effect for dropdown menu items */
+.dropdown-menu li a:hover {
+  background-color: red !important;
+}
+
+/* Style for images in the carousel */
+.carousel-inner img {
+  width: 100%;
+  height: 700px;
+  margin: auto;
+}
+
+/* Style for captions in the carousel */
+.carousel-caption h3 {
+  color: #fff !important;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none;
+    /* Hide the carousel text when the screen is less than 600 pixels wide */
+  }
+}
+
+/* Style for the #index1 section */
+#index1 {
+  width: auto;
+  height: 690px;
+  color: #d5d5d5;
+  background-color: #2d2d30;
+  font-family: Montserrat, sans-serif;
+}
+
+/* Style for the main heading in #index1 */
+#index1 h1 {
+  font-size: 40px;
+  text-align: center;
+  padding-top: 18%;
+  letter-spacing: 25px;
+}
+
+/* Style for search text in #index1 */
+#index1 .searchtext {
+  padding-left: 31%;
+  padding-top: 7%;
+}
+
+/* Style for input fields in #index1 */
+#index1 input {
+  width: 330px;
+  height: 30px;
+  color: black;
+}
+
+/* Style for the #upcoming section */
+#upcoming {
+  position: relative;
+  width: auto;
+  height: 790px;
+  padding-top: 30px;
+  font-family: Montserrat, sans-serif;
+}
+
+/* Style for the main heading in #upcoming */
+#upcoming h1 {
+  letter-spacing: 25px;
+  font-size: 40px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Style for images in #upcoming */
+#upcoming #img {
+  padding-left: 110px;
+  position: absolute;
+}
+
+/* Style for images inside #img */
+#img img {
+  padding-top: 20px;
+  padding-left: 30px;
+}
+
+/* Style for links inside #upcoming */
+#upcoming a {
+  text-decoration: none;
+  color: #2d2d30;
+}
+
+/* Style for the modal header and close button */
+.modal-header,
+h4,
+.close {
+  color: #fff !important;
+  text-align: center;
+  font-size: 30px;
+}
+
+/* Style for the modal body */
+.modal-header,
+.modal-body {
+  padding: 40px 50px;
+}
+
+/* Increase text size for navigation links */
+.navbar-nav li a {
+  font-size: 100px;
+}
+
+/* Change navigation bar color for .navbar-default */
+.navbar-default {
+  background-color: #0004ff;
+}
+
+/* Style for the popover title */
+.popover-title {
+  color: black;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  font-family: Montserrat, sans-serif;
+}
+
+/* Style for the popover content */
+.popover-content {
+  color: black;
+  padding: 25px;
+}
+#search {
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+}
+#search h1 {
+  font-size: 24px;
+  color: white;
+}
+#search .searchtext {}
+#search img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+#search input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+#search .search {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
